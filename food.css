@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+body{
+    font-family: "Ubuntu", sans-serif;
+}
+
+/* navbar style start */
+.navi{
+    background-image: url("images/top-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: -20px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+ul.menu {text-align: center;
+         margin-top: 3%;
+        }
+
+ul.menu li {list-style: none; 
+            display: inline-block;
+        }
+
+ul.menu li a {text-decoration: none;
+            padding: 0px 20px;
+            font-size: 20px;
+            font-weight: 700;
+            color: crimson;
+        }
+ul.menu li a:hover{
+           color: blueviolet;
+       }
+
+/* navbar style end */
+/* home style start */
+
+.home {
+    display: flex;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.homedetails{
+    width: 50%;
+   padding-left: 5%;
+}
+
+.homedetails h2 {font-size: 30px;
+}
+
+.homedetails span {color: #fb5200;
+}
+
+.homedetails p {font-size: 20px;
+               font-weight: 600;
+               color: #666;
+               line-height: 30px;
+}
+.homeimage{
+    width: 50%;
+    padding-left: 5%;
+}
+
+.homeimage img {
+    width: 100%;
+}
+
+
+
+/* home style end  */
+
+/* btn & sectitle style start */
+a.btn {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    background: #fb5200;
+    color: #fff;
+    padding: 8px 8px;
+    border-radius: 5px;
+}
+
+a.btn:hover{
+    background: none;
+    color: blueviolet;
+}
+
+.secTitle {
+    text-align: center;
+    padding: 50px;
+}
+
+.secTitle h2{
+    font-size: 30px;
+    position: relative;
+}
+
+.secTitle h2:after {
+    content: "";
+    position: absolute;
+    width: 75px;
+    background: #fb5200;
+    border: 2px solid #fb5200;
+    bottom: -15px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.secTitle p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #666;
+}
+/* btn style start */
+/* about style start */
+#about{
+    background-image: url(images/one-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 20px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.aboutContain {
+    display: flex;
+    overflow: hidden;
+}
+
+.aboutimage{
+    width: 35%;
+    margin-left: 10%;
+}
+
+.aboutimage img {
+    width: 60%;
+}
+
+.aboutdetails{
+    width: 44%;
+   
+    margin-right: 11%;
+}
+
+.aboutdetails h3{
+    font-size: 30px;
+}
+
+.aboutdetails p{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #666;
+}
+
+/* about style end */
+/* service style start */
+#service{
+    background-image: url(images/five-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 20px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.foodmenu img {
+    width: 70%;
+}
+
+.seviceContain {
+    display: flex;
+    overflow: hidden;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.foodmenu {
+    background: white;
+    width: 30%;
+    margin-left: 20px;
+    border-radius: 10px;
+    border-color: rgb(250,246,246);
+    border-width: 20px;
+    box-shadow: 3px 3px 3px rgb(220 220 220);
+    margin-bottom: 5%;
+    padding-left: 5%;
+    padding-top: 20px;
+}
+
+.foodmenu h3 {
+    font-size: 20px;
+  
+}
+
+.foodmenu p {
+    font-size: 15px;
+    font-weight: 600;
+    color: #666;
+}
+
+/* service style end */
+/* contact us start */
+.container {
+    margin-bottom: 5%;
+}
+.contactWrapper {
+    overflow: hidden;
+}
+
+.contactDetails {
+    width: 535px;
+    float: left;
+    padding-left: 5%;
+}
+
+.contactForm {
+    width: 400px;
+    float: right;
+}
+
+section#contact p {
+    color: #666;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+section#contact h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.field.name {
+    padding: 25px 0px;
+}
+
+input.name {
+    height: 40px;
+    width: 230px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.field.email {
+    margin-bottom: 20px;
+}
+
+input[type="email"] {
+    height: 40px;
+    width: 230px;
+    padding-left: 10px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.field.Subject {
+    margin-bottom: 20px;
+}
+
+input.subject {
+    height: 40px;
+    width: 230px;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+textarea {
+    width: 240px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+button {
+    background: crimson;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 250px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+button:hover{
+    background: white;
+    color: crimson;
+}
+/* contact us end */
+/* footer style start */
+
+.desc {
+    background: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.desc span {
+    color: #fb5200;
+}
+
+.desc h3 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.desc p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+/* footer style end */
